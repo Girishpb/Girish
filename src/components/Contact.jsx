@@ -34,8 +34,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        service_tb7tz6n,
-        template_l58sl7r,
+        //add service key,
+        //add template emailjs,
         {
           from_name: form.name,
           to_name: "Girish Bennur",
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "girishbennur999@gmail.com",
           message: form.message,
         },
-        'CdC2soHlNz0qz3csq'
+        //add emailjs public key
       )
       .then(
         () => {
